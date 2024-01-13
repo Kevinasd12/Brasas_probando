@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevinpracticas #1</title>
+</head>
+<body>
+    <!-- ul es lista no ordenada -->
+<header>
+    <h1>Bienvenido a Brasas Santa Monica</h1>
+        <p> Somos una restaurante familiar especialicados en todo tipo de pollos, y comidas deliciosas</p> 
+                    <img src="img/brasas.jpeg" width="500" height="400" />
+</header>
+            <hr>
+
+<section>  
+            <!--Aqui colocaremos informacion sobre quienes somos -->
+    <h2>Nuestros menus</h2>
+            <!-- ul es lista no ordenada -->
+       <ol>
+            <li>Pollos</li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">A la brasas</li>
+                <li style="list-style-type: lower-alpha;">Broaster</li>
+                <li style="list-style-type: lower-alpha;">A la parilla</li>
+            </ol>
+            <li>Parillas</li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Carnes</li>
+                <li style="list-style-type: lower-alpha;">Mixtas</li>
+                <li style="list-style-type: lower-alpha;">Margarita (clasica)</li>
+            </ol>
+            <li>Sopas</li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">De res</li>
+                <li style="list-style-type: lower-alpha;">Cruzado</li>
+                <li style="list-style-type: lower-alpha;">Pollo</li>
+            </ol>
+            <li>Pizzas</li>
+                <ol>
+                    <li style="list-style-type: lower-alpha;">California</li>
+                    <li style="list-style-type: lower-alpha;">Hawana</li>
+                    <li style="list-style-type: lower-alpha;">Margarita (clasica)</li>
+                </ol>
+       </ol>
+       
+</section>
+<article>
+            <hr>
+        <h2>Servicios Disponibles</h2>
+        <servicios> Contamos con servicios de <br>
+         <span style="color: chocolate;">Alcohol, organizacion de reuniones, musica en vivo, fechas especiales fifa y delivery </span> <br>
+         <horarios> Abierto de Lunes a Domingo 💥
+            Desde las 11:00 Am hasta las 10:00 pm 🕙</horarios>
+        </servicios>
+</article>
+<footer>
+            <hr>
+    <div>
+    <h2> Contactanos! </h2>
+        <contacto> Nuestros numero de contacto es: <span style="color: forestgreen;"> 02126642955 </span> <br> 
+        O con darle a este link lo rediccionara a nuestro whatsapp <a target="_blank" href="https://api.whatsapp.com/send?phone=584142238661"> Hacer Click!</a>
+        </contacto>
+        <p> <a target="_blank" href="https://kevindasilvacrip@gmail.com"> Nuestro correo </a> </p>
+        <p> Siguenos en nuestro <a target="_blank" href="https://www.instagram.com/brasasrest/?hl=es">Instagram </a> </p>
+        <p> Dejanos tus datos y nos encargamos de armarte un menu personalizado!</p>
+    </div>
+    <form action="/formulario" method="GET">
+    <div >
+        <label for="nombre">Nombre</label>
+        <input type="text"  id="nombre" name="nombre" placeholder="Coloca tu nombre aqui!" />
+        <br>
+        <label for="numero">Numero telefonico</label>
+        <input type="number"  id="numero" name="numero" placeholder="Coloca tu numero telefonico aqui!" />
+        <br>
+        <label for="comida">Que deseas comer?</label> <br>
+        <textarea name="comida" id="comida" placeholder="Escribeme tu lista de comida" cols="50" rows="10">Buenas, quisiera ordenar </textarea>
+        <br>
+        <button type="reset"> Reset </button>
+        <button type="submit"> Enviar </button>
+        <!-- div sirve para agrupar las sections -->
+    </div>  
+    </form>
+</footer>
+</body>
+</html>
