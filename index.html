@@ -1,86 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevinpracticas #1</title>
-</head>
+    </head>
 <body>
-    <!-- ul es lista no ordenada -->
-<header>
-    <h1>Bienvenido a Brasas Santa Monica</h1>
-        <p> Somos una restaurante familiar especialicados en todo tipo de pollos, y comidas deliciosas</p> 
-                    <img src="img/brasas.jpeg" width="300" height="200" />
-</header>
-            <hr>
+    <header>
+        <h1>Bienvenido a Brasas Restaurant Santa Monica</h1>
+        <p> Somos una <strong>restaurante familiar</strong> especializados en todo tipo de pollos, y comidas deliciosas</p>      
+        <img src="img/brasas.jpeg" alt="imagen del restaurant desde afuera" width="300" height="200" />
+    </header>
 
-<section>  
+    <hr>
+
+    <section>  
+            <!-- <s> texto tachado -->
+            <!-- li (list item) ul (lista no ordenada) ol (lista ordenada)-->
             <!--Aqui colocaremos informacion sobre quienes somos -->
-    <h2>Nuestros menus</h2>
-            <!-- ul es lista no ordenada -->
-       <ol>
-            <li>Pollos</li>
-            <ol>
-                <li style="list-style-type: lower-alpha;">A la brasas</li>
-                <li style="list-style-type: lower-alpha;">Broaster</li>
-                <li style="list-style-type: lower-alpha;">A la parilla</li>
-            </ol>
-            <li>Parillas</li>
-            <ol>
-                <li style="list-style-type: lower-alpha;">Carnes</li>
-                <li style="list-style-type: lower-alpha;">Mixtas</li>
-            </ol>
-            <li>Sopas</li>
-            <ol>
-                <li style="list-style-type: lower-alpha;">De res</li>
-                <li style="list-style-type: lower-alpha;">Cruzado</li>
-                <li style="list-style-type: lower-alpha;">Pollo</li>
-            </ol>
-            <li>Pizzas</li>
+            <h2>Nuestro menu</h2>
+            <a href="#pollos">Nuestros pollos</a>
+            <br>
+            <a href="#parrillas">Nuestras parrillas</a> 
+            <br>
+            <a href="#sopas">Nuestras sopas</a> 
+            <br>
+            <a href="#pizzas">Nuestras pizzas</a> 
+            
+       <ul>
+            <li id="pollos" style="color: brown;"> <strong>Pollos</strong> </li>
+            <img src="/img/pollo_a_la_brasa.jpg" height="100" width="200"  alt="imagen de pollo a la brasa"> 
                 <ol>
-                    <li style="list-style-type: lower-alpha;">California</li>
-                    <li style="list-style-type: lower-alpha;">Hawana</li>
-                    <li style="list-style-type: lower-alpha;">Margarita (clasica)</li>
+                    <li style="list-style-type: lower-alpha;">A la brasa</li>
+                    <li style="list-style-type: lower-alpha;">Broaster</li>
+                    <li style="list-style-type: lower-alpha;">A la parilla</li>
                 </ol>
-       </ol>
+            <li id="parrillas" style="color: rgb(46, 84, 8);"><strong>Parrillas</strong></li>
+                <ol>
+                    <li style="list-style-type: lower-alpha;">Carnes</li>
+                    <li style="list-style-type: lower-alpha;">Mixtas</li>
+
+                </ol>
+            <li id="sopas" style="color: rgb(92, 84, 42);"><strong>Sopas</strong></li>
+                <ol>
+                    <li style="list-style-type: lower-alpha;">De rest</li>
+                    <li style="list-style-type: lower-alpha;">Cruzado</li>
+                    <li style="list-style-type: lower-alpha;">Pollo</li>
+                </ol>
+            <li id="pizzas" style="color: rgb(96, 20, 163);"><strong>Pizzas</strong></li>
+                <ol>
+                        <li style="list-style-type: lower-alpha;">California</li>
+                        <li style="list-style-type: lower-alpha;">Hawana</li>
+                        <li style="list-style-type: lower-alpha;">Margarita (clasica)</li>
+                </ol>
+        </ul>
        
-</section>
-<article>
-            <hr>
+    </section>
+
+    <hr>
+
+    <article>
         <h2>Servicios Disponibles</h2>
-        <servicios> Contamos con servicios de <br>
-         <span style="color: chocolate;">Alcohol, organizacion de reuniones, musica en vivo, fechas especiales fifa y delivery </span> <br>
-         <horarios> Abierto de Lunes a Domingo 💥
-            Desde las 11:00 Am hasta las 10:00 pm 🕙</horarios>
-        </servicios>
-</article>
-<footer>
-            <hr>
-    <div>
-    <h2> Contactanos! </h2>
-        <contacto> Nuestros numero de contacto es: <span style="color: forestgreen;"> 02126642955 </span> <br> 
-        O con darle a este link lo rediccionara a nuestro whatsapp <a target="_blank" href="https://api.whatsapp.com/send?phone=584142238661"> Hacer Click!</a>
-        </contacto>
-        <p> <a target="_blank" href="https://kevindasilvacrip@gmail.com"> Nuestro correo </a> </p>
-        <p> Siguenos en nuestro <a target="_blank" href="https://www.instagram.com/brasasrest/?hl=es">Instagram </a> </p>
-        <p> Dejanos tus datos y nos encargamos de armarte un menu personalizado!</p>
-    </div>
-    <form action="/formulario" method="GET">
-    <div >
-        <label for="nombre">Nombre</label>
-        <input type="text"  id="nombre" name="nombre" placeholder="Coloca tu nombre aqui!" />
+        <div> Contamos con servicios de:<br>
+            <span style="color: chocolate;">Alcohol, organizacion de reuniones, musica en vivo, fechas especiales fifa y delivery </span> 
+            <br>
+            <horarios> Abierto de Lunes a Domingo 💥 Desde las 11:00 Am hasta las 10:00 pm 🕙</horarios>
+        </div>
+    </article>
+
+    <hr>
+
+    <article>
+
+        <h2>Ubicación</h2>
+        <a href="https://maps.app.goo.gl/3zvtYjUHQSsuAsEq8" target="_blank"><img src="/img/vecteezy_google-maps-icon_16716478.png" alt="imagen del icono de google maps" width="60" height="50"></a>
+        
         <br>
-        <label for="numero">Numero telefonico</label>
-        <input type="number"  id="numero" name="numero" placeholder="Coloca tu numero telefonico aqui!" />
-        <br>
-        <label for="comida">Que deseas comer?</label> <br>
-        <textarea name="comida" id="comida" placeholder="Escribeme tu lista de comida" cols="50" rows="10">Buenas, quisiera ordenar </textarea>
-        <br>
-        <button type="reset"> Reset </button>
-        <button type="submit"> Enviar </button>
-        <!-- div sirve para agrupar las sections -->
-    </div>  
-    </form>
-</footer>
+
+        <span style="color: rgb(244, 11, 11);"> Nos ubicamos en la calle principal de los chaguaramos, una cuadra adelante del </span>
+        <span style="color: rgb(107, 150, 141);"> Crema paraiso </span>
+        <span style="color: rgb(241, 207, 14);"> La Gran casa amarrilla (estacionamiento GRATIS)</span>
+
+    </article>
+
+    <hr>
+
+    <footer> 
+        <div>
+            <h2> Contáctanos! </h2>
+            <contacto> Nuestro numero de contacto es: <span style="color: forestgreen;"> 04129850587 </span> <br> 
+            O con darle a este link lo rediccionara a nuestro whatsapp <a target="_blank" href="https://api.whatsapp.com/send?phone=584142238661" rel="noopener noreferrer"> Hacer Click!</a>
+            </contacto>
+            <p> Nuestro correo es: <strong> kevindasilvacrip@gmail.com </strong> </p>
+            <p> Siguenos en nuestro <a target="_blank" href="https://www.instagram.com/brasasrest/?hl=es"> <strong> Instagram </strong> </a> </p>
+        </div>
+        <form target="_blank">
+            <p> Dejanos tus datos y nos encargamos de contactarte</p>
+            <div style="color: rgb(156, 108, 45);">
+                <strong>
+                    <label for="nombre">Nombre</label>
+                    <input required  id="nombre" name="nombre" placeholder="Coloca tu nombre aqui!" />
+                <br>
+                    <label for="numero">Numero telefonico</label>
+                    <input required type="number"  id="numero" name="numero" placeholder="Coloca tu número telefónico aqui!" />
+                <br>
+                    <label for="comida">Que deseas comer?</label> 
+                    <br>
+                    <textarea name="comida" id="comida" placeholder="Escribeme tu lista de comida" cols="50" rows="10">Buenas, quisiera ordenar (opcional)</textarea>
+                <br>
+                <!-- experiencia del usuario en la pagina -->
+                    <label for="bien">¿Como fue tu experiencia con la pagina web?</label>
+                        <br>
+                    <label for="bien"><input id="bien" name="experiencia" type="radio">Bien </label>
+                        <br>
+                    <label for="regular"><input id="regular" name="experiencia" type="radio">Regular </label>
+                        <br>
+                    <label for="mal"><input id="mal" name="experiencia" type="radio">Mal </label>
+                        <br>
+                <!-- botones para enviar formulario -->
+                <button type="reset"> Reset </button>
+                <button type="submit"> Enviar </button>
+                <!-- div sirve para agrupar las sections -->
+                <!-- required nos permite ser que el campo sea obligario -->
+            </strong>
+            </div>  
+        </form>
+    </footer>
 </body>
 </html>
