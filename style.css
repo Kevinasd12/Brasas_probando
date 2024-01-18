@@ -4,14 +4,32 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 
-.imagen-de-header {
-  width: 70%;
-  height: 70%;
+#imagen-de-header  {
+  width: 60%;
+  height: 60%;
+  border-width: 10px;
+  border-color: red;
+  border-style: solid ;
+  /*primer valor arriba, segundo valor derecha, tercer valor abajo y ultimo valor izquierda */
+  /*bordes redondeados*/
+  border-radius: 10%;
+}
+
+#imagen-de-pollo {
+  width: 20%;
+  height: 20%;
+  border-width: 5px;
+  border-color: red;
+  border-style: dashed ;
+  /*primer valor arriba, segundo valor derecha, tercer valor abajo y ultimo valor izquierda */
+  /*bordes redondeados*/
+  border-radius: 20%;
 }
 
 .quienes-somos {
-  font-size: 40px;
+  font-size: 35px;
   color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sub-titulos {
@@ -29,7 +47,7 @@ h1 {
 .sections-comida {
   font-family: 'Crimson Text', serif;
   font-size: 30px;
-  color: coral;
+  color: black;
 }
 
 #casa-amarrilla {
@@ -42,6 +60,10 @@ h1 {
 }
 
 .imagen-iconos {
-  width: 5%;
-  height: 5%;
+  width: 8%;
+  height: 8%;
+}
+
+html {
+  background-color: yellow;
 }
