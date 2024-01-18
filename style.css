@@ -1,0 +1,18 @@
+h1 {
+  font-size: 70px; color: crimson;
+}
+.quienes-somos {
+  font-size: 40px; color: black;
+}
+
+.sub-titulos {
+  font-size: 50px;  color: crimson;
+}
+
+#catalogo {
+  color: green;
+}
+
+.text-default {
+  font-size: 25px; color: black;
+}
