@@ -1,18 +1,47 @@
 h1 {
-  font-size: 70px; color: crimson;
+  font-size: 70px;
+  color: crimson;
+  font-family: 'Roboto', sans-serif;
 }
+
+.imagen-de-header {
+  width: 70%;
+  height: 70%;
+}
+
 .quienes-somos {
-  font-size: 40px; color: black;
+  font-size: 40px;
+  color: black;
 }
 
 .sub-titulos {
-  font-size: 50px;  color: crimson;
-}
-
-#catalogo {
-  color: green;
+  font-size: 50px; 
+  color: crimson;
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-default {
-  font-size: 25px; color: black;
+  font-size: 25px;
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sections-comida {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+  color: coral;
+}
+
+#casa-amarrilla {
+  font-size: 35px;
+  color: coral;
+}
+
+#estacionamiento-gratis {
+  color: red;
+}
+
+.imagen-iconos {
+  width: 5%;
+  height: 5%;
 }
