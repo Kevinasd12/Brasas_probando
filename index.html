@@ -14,8 +14,7 @@
         <!--width ancho height alto-->
         <h1 >Bienvenido a Brasas Restaurant Santa Monica</h1>
         <nav class="quienes-somos"> Somos un <strong>restaurante familiar</strong> especializados en todo tipo de pollos, y comidas deliciosas</nav>  
-        <br>    
-        <img src="img/brasas.jpeg" alt="imagen del restaurant desde afuera" id="imagen-de-header"/>
+            <img src="img/brasas.jpeg" alt="imagen del restaurant desde afuera" id="imagen-de-header"/>
     </header>
 
     <hr>
@@ -24,12 +23,18 @@
             <!-- <s> texto tachado -->
             <!-- li (list item) ul (lista no ordenada) ol (lista ordenada)-->
         <div> 
-            <h2 class="sub-titulos">Nuestro menu</h2>
-            <a class="sections-comida" href="#pollos">Nuestros pollos</a>
+            <h2 class="sub-titulos" id="nuestromenu" >Nuestro menu</h2>
+            <div id="nuestros-pollos"  >
+                <a class="sections-comida" href="#pollos">Nuestros pollos</a>
+            </div>
+                <br>
+            <div id="nuestras-parrillas">
+                <a class="sections-comida" href="#parrillas">Nuestras parrillas</a> 
+            </div>
             <br>
-            <a class="sections-comida" href="#parrillas">Nuestras parrillas</a> 
-            <br>
-            <a class="sections-comida" href="#sopas">Nuestras sopas</a> 
+            <div id="nuestras-sopas"> 
+                <a class="sections-comida"  href="#sopas">Nuestras sopas</a> 
+            </div>
             <br>
             <a class="sections-comida" href="#pizzas">Nuestras pizzas</a> 
         </div>
@@ -87,7 +92,7 @@
                 <br>
 
                 <span> Nos ubicamos en la calle principal de los chaguaramos, una cuadra adelante del crema paraiso
-                <span id="casa-amarrilla"> "La casa amarrilla" </span>
+                <span id="casa-amarrilla"> "La casa amarrilla" </span> <br>
                 (estacionamiento <span id="estacionamiento-gratis">GRATIS</span>)</span>
             </div>
     </article>
@@ -126,7 +131,7 @@
         <form target="_blank">
 
             <div class="text-default">
-                <p class="sub-titulos"> <h2 class="sub-titulos"><ul><li>Dejanos tus datos y te contáctamos!</li></ul></h2></p>
+                <p > <h2 class="sub-titulos"><ul><li>Dejanos tus datos y te contáctamos!</li></ul></h2></p>
                 <strong>
                     <label for="nombre">Nombre</label><br>
                     <input required  id="nombre" name="nombre" placeholder="Coloca tu nombre aqui!" />

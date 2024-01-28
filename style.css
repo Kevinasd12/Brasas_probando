@@ -1,19 +1,55 @@
+
 h1 {
   font-size: 70px;
-  color: crimson;
   font-family: 'Roboto', sans-serif;
-}
+  color: crimson;
+  background-color: yellow;
 
-#imagen-de-header  {
-  width: 60%;
-  height: 60%;
   border-width: 10px;
   border-color: red;
+  border-style: solid;
+  padding: 5% 1% 5% 15%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  
+}
+
+.quienes-somos {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  color: black;
+  background-color: yellow;
+ 
+  border: 10px;
+  border-color: red;
+  border-style: solid;
+  padding: 4% 10% 4% 10%;
+  margin-top: 1%;
+}
+
+
+#imagen-de-header  {
+  width: 40%;
+  height: 40%;
+
+
+  border-color: black;
   border-style: solid ;
+  border-radius: 30%;
+  
   /*primer valor arriba, segundo valor derecha, tercer valor abajo y ultimo valor izquierda */
   /*bordes redondeados*/
-  border-radius: 10%;
+
+  margin-top: 3%;
+  margin-left: 30%;
 }
+
+header {
+  background-color: yellow;
+  ;
+}
+
+
 
 #imagen-de-pollo {
   width: 20%;
@@ -26,16 +62,59 @@ h1 {
   border-radius: 20%;
 }
 
-.quienes-somos {
-  font-size: 35px;
+#nuestromenu {
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  color: red;
+  background-color: yellow;
+  padding: 2% 10% 2% 40%;
+  margin: auto;
+  
+}
+
+.sections-comida {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
   color: black;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+#nuestros-pollos {
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  padding: 7% 10% 7% 18%; ;
+  margin-right: 50%;
+  margin-top: 1%;
+  position: static;
+}
+
+#nuestras-parrillas {
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  padding: 7% 10% 7% 18%; ;
+  margin-left: 50%;
+  
+}
+
+#nuestras-sopas {
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  padding: 7% 10% 7% 18%; ;
+  margin-right: 50%;
+  margin-top: 1%;
+  position: static;
+  
 }
 
 .sub-titulos {
   font-size: 50px; 
   color: crimson;
   font-family: 'Roboto', sans-serif;
+
 }
 
 .text-default {
@@ -44,11 +123,7 @@ h1 {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.sections-comida {
-  font-family: 'Crimson Text', serif;
-  font-size: 30px;
-  color: black;
-}
+
 
 #casa-amarrilla {
   font-size: 35px;
@@ -64,6 +139,3 @@ h1 {
   height: 8%;
 }
 
-html {
-  background-color: yellow;
-}
